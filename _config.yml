@@ -1,0 +1,12 @@
+# Site settings
+title: RightGuide | Decision Collaboration Platform
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  RightGuide provides the first ever decision collaboration platform.
+baseurl: ""
+url: "http://127.0.0.1:4000/"
+#url: "http://www.productbloom.com" # the base hostname & protocol for your site
+twitter_username: productbloom
+
+# Build settings
+markdown: kramdown

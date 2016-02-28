@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{% include page_nav.html %}
+
+<div class="container-wrapper grey-bg white-bottom-border">
+  <div class="container">
+    <div class="row">
+      <div class="container-padding">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <div class="expertise-option">
+            <div class="box">
+              <div class="text-left">
+                <h1 class="expertise-header">{{ page.title }}</h1>
+                <hr/>
+                <br/>
+                <p class="meta padding-bottom-10">
+                  {{ page.date | date: "%B %-d, %Y" }}
+                  &middot;
+                  {{ page.category }}
+                  &middot;
+                  <i class="fa fa-bookmark"></i> {{ page.minute_read_time }} minute read
+                </p>
+                {{ content }}
+                <br/>
+                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+                <br/>
+
+                <div id="disqus_thread"></div>
+                <script>
+
+                  /*
+                  var disqus_config = function () {
+                  this.page.url = "{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.identifier = "{{ page.title }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                  };
+                  */
+                  (function() { // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
+
+                  s.src = '//productbloom.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        {% include deliver.html %}
+      </div>
+    </div>
+  </div>
+</div>
