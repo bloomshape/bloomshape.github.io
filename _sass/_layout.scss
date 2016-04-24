@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-weight: normal;
+  line-height: 32px;
 }
 
 .site-wrapper {
@@ -66,12 +66,16 @@ p {
 .hero-heading {
   color: rgb(222, 243, 255);
   font-size: 45px;
-  margin-top: 30px;
+  margin: 35px 0 25px 0;
   text-shadow: 1px 3px 1px rgba(69, 69, 69, 0.3);
 }
 
+.home-header {
+  margin: 40px;
+}
+
 .hero-move {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .hero-summary {
@@ -109,7 +113,12 @@ p {
 }
 
 .service-desc-margin {
-  margin: 50px 0px 40px 0px;
+  margin: 50px 0px 50px 0px;
+}
+
+.service-desc {
+  font-size: 18px;
+  padding: 15px 0 30px 0;
 }
 
 .container-padding {
@@ -118,12 +127,6 @@ p {
 
 .expertise-option {
   margin: 0px 0px 40px 0px;
-}
-
-.service-desc {
-  color: #797977;
-  line-height: 24px;
-  padding-top: 10px;
 }
 
 .box {
@@ -216,38 +219,6 @@ a.pill:hover {
 
 .expertise-option .fa {
   color: #3c6497;
-}
-
-ul.icon-list {
-  list-style: none;
-  margin: 0;
-  padding: 20px;
-}
-
-.icon-list li {
-  display: block;
-  padding-left: 94px;
-  position: relative;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
-
-.icon-list li::before {
-  position: absolute;
-  content: '\f085';
-  font-family: 'FontAwesome';
-  font-size: 24px;
-  color: #ffffff;
-  width: 60px;
-  height: 60px;
-  background: #3c6497;
-  left: 15px;
-  top: 0px;
-  padding-left: 17px;
-  padding-top: 12px;
-  border-radius: 5px;
 }
 
 .footer {
@@ -368,4 +339,34 @@ ul.deliverable-list {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+ul.issue-list {
+  margin: 0 0 30px 50px;
+}
+
+ul.issue-list li {
+  margin-bottom: 15px;
+}
+
+li .fa-exclamation-triangle {
+  color: #C1643A;
+}
+
+.components .fa-user, .components .fa-briefcase, .components .fa-bullseye, .components .fa-comment, .components .fa-lightbulb-o, .components .fa-line-chart {
+  color: #3C6497 !important;
+  padding-bottom: 15px;
+}
+
+.component {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.section-title {
+  margin: 60px 0 60px 0;
+}
+
+.contact-button {
+  margin: 0 0 60px 0;
 }

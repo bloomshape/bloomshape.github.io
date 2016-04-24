@@ -13,7 +13,7 @@ permalink: /contact/
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
           <div class="expertise-option">
             <div class="box">
-              <h1 class="text-left expertise-header">Coming Soon!</h1>
+              <h1 class="text-left expertise-header">How Can We Help?</h1>
               <hr/>
               <br/>
               <p class="box-desc text-left">We are excited about the upcoming launch of RightGuide. If you are interested in being a part of the Alpha release or just have a few questions, use the form below to reach out to us. We will never spam you!</p>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
   {% include head.html %}
   <body>
 
@@ -10,6 +9,29 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script>
+  $("#nav ul li a[href^='#']").on('click', function(e) {
+
+  // prevent default anchor click behavior
+  e.preventDefault();
+
+  // store hash
+  var hash = this.hash;
+
+  // animate
+  $('html, body').animate({
+  scrollTop: $(hash).offset().top
+  }, 800, function(){
+
+  // when done, add hash to url
+  // (default click behaviour)
+  window.location.hash = hash;
+  });
+
+  });
+</script>
+
 
   </body>
 
