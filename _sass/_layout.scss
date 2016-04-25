@@ -345,8 +345,12 @@ ul.issue-list {
   margin: 0 0 30px 50px;
 }
 
-ul.issue-list li {
+ul.issue-list li, ul.service-list li {
   margin-bottom: 15px;
+}
+
+ul.service-list li {
+  color: #3C6497 !important;
 }
 
 li .fa-exclamation-triangle {
@@ -364,7 +368,7 @@ li .fa-exclamation-triangle {
 }
 
 .section-title {
-  margin: 60px 0 60px 0;
+  margin: 60px 0 40px 0;
 }
 
 .contact-button {

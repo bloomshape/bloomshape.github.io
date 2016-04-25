@@ -16,7 +16,7 @@ permalink: /contact/
               <h1 class="text-left expertise-header">How Can We Help?</h1>
               <hr/>
               <br/>
-              <p class="box-desc text-left">We are excited about the upcoming launch of RightGuide. If you are interested in being a part of the Alpha release or just have a few questions, use the form below to reach out to us. We will never spam you!</p>
+              <p class="box-desc text-left">Interested in learning more about our dynamic customer profiles? Use the form below to contact our team and we will happily walk your team through our process and methodology.</p>
               <br/>
 
               <div id='crmWebToEntityForm'>

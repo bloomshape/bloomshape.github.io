@@ -1,8 +1,8 @@
 # Site settings
-title: RightGuide | Decision Collaboration Platform
+title: BloomShape | Dynamic Customer Profiles
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  RightGuide provides the first ever decision collaboration platform.
+  BloomShape specializes in creating dynamic customer profiles that turn assumption-based personas into validated buyer profiles.
 baseurl: ""
 url: "http://127.0.0.1:4000/"
 #url: "http://www.productbloom.com" # the base hostname & protocol for your site
